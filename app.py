@@ -13,4 +13,4 @@ myTextFinal = myText1+myText2+myText3+myText4+myText5+myText6+myText7
 
 @app.route('/')
 def hello_world():
-    return 
+    return myTextFinal
