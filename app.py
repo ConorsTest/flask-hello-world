@@ -9,8 +9,12 @@ myText5 = "|  (===)  |\n"
 myText6 = "|_________|\n"
 myText7 = "BEEP BOOP"
 
-myTextFinal = myText1+myText2+myText3+myText4+myText5+myText6+myText7
-
 @app.route('/')
 def hello_world():
-    return myTextFinal
+    print(myText1)
+    print(myText2)
+    print(myText3)
+    print(myText4)
+    print(myText5)
+    print(myText6)
+    return myText7
